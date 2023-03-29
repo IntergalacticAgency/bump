@@ -2,9 +2,7 @@
   "name": "@fabiospampinato/bump",
   "description": "Bump updates the project's version, updates/creates the changelog, makes the bump commit, tags the bump commit and makes the release to GitHub. Opinionated but configurable.",
   "version": "2.2.0",
-  "bin": {
-    "bump": "dist/bin/index.js"
-  },
+  "bin": "dist/bin/index.js",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -63,5 +61,7 @@
     "rimraf": "^2.6.3",
     "typescript": "^3.7.5",
     "typescript-transform-export-interop": "^1.0.2"
-  }
+  },
+  "packageManager": "yarn@3.5.0",
+  "private": true
 }
